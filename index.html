@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+  	<meta name='viewport' content='viewport-fit=cover, width=device-width, initial-scale=1.0'/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<link href="css/style.css" rel="stylesheet">
+
+	
+  <title>Glide - Lofi Timer</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+  <link rel="manifest" href="./img/site.webmanifest">
+</head>
+<body>
+	<div class="background-blur"></div>
+	<div class="background">
+		<div id="glass">
+			<div id="main-text">
+				START
+			</div>
+		</div>
+		<div id="glassLiveTimer">
+			<div id="countdown"></div>
+		</div>
+		<div id="glassBreakTimer">
+			<div class="countdown"></div>
+			<div id="finish-text">
+				BREAK
+			</div>
+			<div class="breakText">
+				Click to restart
+			</div>
+		</div>
+		<div class="slidecontainer">
+			<input class="slider" id="volumeSlider" max="10" min="0" step="0.1" type="range" value="10">
+		</div>
+		<div id="infoGlass">
+			<div class="welcomeContainer">
+				<a href="https://www.youtube.com/watch?v=2ybOJMibAbA&ab_channel=TheArtofImprovement" style="text-decoration:none" target="_blank">
+				<div id="deepWork">
+					DEEP WORK
+				</div></a>
+				<div id="title">
+					GLIDE
+				</div><a href="https://www.youtube.com/watch?v=mNBmG24djoY&ab_channel=MedSchoolInsiders" style="text-decoration:none" target="_blank">
+				<div id="pomodoro">
+					POMODORO
+				</div></a>
+			</div>
+		</div>
+	</div>
+	<script src="./scripts/timer.js" type="text/javascript"></script> 
+</body>
+</html>
