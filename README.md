@@ -5,7 +5,7 @@
 > Glide is a Deep Work/Pomodoro timer combined with a range of lofi playlists to increase productivity and work rate 🎵
 
 
-Live site: https://adam-m01.github.io/Glide/
+Live site: [glide.adamurray.com](http://glide.adamurray.com/)
 
 
 ## Technologies used
